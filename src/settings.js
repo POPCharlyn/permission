@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Vue Admin Template',
+  title: 'Whale Dynamic',
 
   /**
    * @type {boolean} true | false
@@ -12,5 +12,10 @@ module.exports = {
    * @type {boolean} true | false
    * @description Whether show the logo in sidebar
    */
-  sidebarLogo: false
+  sidebarLogo: false,
+
+  /**
+   * token在Cookie中存储的天数，默认1天
+   */
+  cookieExpires:1
 }
